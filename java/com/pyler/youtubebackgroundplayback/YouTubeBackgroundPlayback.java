@@ -45,8 +45,8 @@ public class YouTubeBackgroundPlayback implements IXposedHookLoadPackage {
 	private static final String LOG_TAG = "YTBackgroundPlayback";
 
 	private static final HashMap<String, String> PACKAGE_HOOKS_MAP = new HashMap<String, String>() {{
-		put("com.google.android.youtube", "https://raw.githubusercontent.com/pylerSM/YouTubeBackgroundPlayback/master/assets/hooks-3.json");
-		put("com.google.android.apps.youtube.music", "https://raw.githubusercontent.com/pylerSM/YouTubeBackgroundPlayback/yt-music/assets/hooks-music.json");
+		put("com.google.android.youtube", "https://raw.githubusercontent.com/y6yuan/YouTubeBackgroundPlayback/master/assets/hooks-3.json");
+		put("com.google.android.apps.youtube.music", "https://raw.githubusercontent.com/y6yuan/YouTubeBackgroundPlayback/yt-music/assets/hooks-music.json");
 	}};
 
 	private String APP_PACKAGE;
