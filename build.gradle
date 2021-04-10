@@ -19,12 +19,12 @@ repositories {
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 30
 
     defaultConfig {
         applicationId 'com.pyler.youtubebackgroundplayback'
         minSdkVersion 4
-        targetSdkVersion 23
+        targetSdkVersion 30
         versionCode 20500
         versionName '2.0.5'
     }
